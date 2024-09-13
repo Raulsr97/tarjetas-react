@@ -9,19 +9,21 @@ body {
   font-size: 18px;
   background-color: #f5f6f7;
 } 
+h1 {
+  padding: 60px;
+}
 .App {
-  width: 100%;
-  height: auto;
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .contenedor-principal {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+ min-height: 600px;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
 }
